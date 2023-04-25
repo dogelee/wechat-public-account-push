@@ -47,9 +47,9 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '去见你',
+      name: '去见你','May_'
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'obRq86enMQQaEkPYXlDhElKKPGF4',
+      id: 'obRq86enMQQaEkPYXlDhElKKPGF4','obRq86aOJRTvY5oXtjNkRtLbjBUU'
     }
   ],
 
