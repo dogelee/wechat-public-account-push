@@ -15,9 +15,6 @@ const USER_CONFIG = {
 
   PROVINCE: '邵阳',
   CITY: '邵阳县',
-  
-  RROCINCE:'张家界',
-  CITY:'永定区',
 
   USERS: [
     {
