@@ -13,15 +13,16 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '30d61b84149159dd67873cf9810b9829',
 
-  PROVINCE: '邵阳',
-  CITY: '邵阳县',
-
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'obRq86enMQQaEkPYXlDhElKKPGF4',
+      
+      PROVINCE: '邵阳',
+      CITY: '邵阳县',
+  
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'j9fEswjMJMT2aryafnGmJH1IHNJJLwRHqcxLKydZ8-Q',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -40,7 +41,24 @@ const USER_CONFIG = {
       ],
     },
   ],
-
+  
+    {
+      // 想要发送的人的名字
+      name: '二狗',
+  
+      id:'obRq86enMQQaEkPYXlDhElKKPGF4',
+  
+      uesTemplateId:'	072SFXeptTcx6E0IK2axP1cfrKWx8uMGpaIdcxWtgbc',
+  
+      PROVINCE: '张家界市',
+      CITY: '武陵源区',
+  
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-09-13' },
+      ],
+    },
+  ],
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '	lyKgWq3wHxHo9lLxrbrJuw8bz-4QkRWtvld6bNi93n4',
