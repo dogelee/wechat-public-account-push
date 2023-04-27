@@ -40,25 +40,7 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2022-09-13' },
       ],
     },
-  ],
-  
-    {
-      // 想要发送的人的名字
-      name: '二狗',
-  
-      id:'obRq86enMQQaEkPYXlDhElKKPGF4',
-  
-      uesTemplateId:'	072SFXeptTcx6E0IK2axP1cfrKWx8uMGpaIdcxWtgbc',
-  
-      PROVINCE: '张家界市',
-      CITY: '武陵源区',
-  
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-13' },
-      ],
-    },
-  ],
+  ]
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '	lyKgWq3wHxHo9lLxrbrJuw8bz-4QkRWtvld6bNi93n4',
